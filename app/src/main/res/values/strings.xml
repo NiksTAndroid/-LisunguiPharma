@@ -1,0 +1,333 @@
+<resources>
+
+    <string name="app_name">LISUNGUI Pharma</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_field_too_short">At least 4 characters required</string>
+    <string name="error_field_mb_no">Please enter correct mobile number</string>
+    <string name="error_password">At least 6 characters required</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_pharmacy_list">PharmacyListActivity</string>
+    <string name="euro_symbol">€ </string>
+
+    <string name="str_username">Username</string>
+    <string name="str_password">Password</string>
+    <string name="str_sign_in">Sign In</string>
+    <string name="str_sign_in_with_gl">Google Sign In</string>
+    <string name="str_for_pass">Forgot Password?</string>
+    <string name="str_sign_up">Sign up</string>
+    <string name="str_email_id">Email ID</string>
+    <string name="str_mb_no">Mobile number</string>
+    <string name="str_submit">Submit</string>
+    <string name="str_loading">Loading...</string>
+    <string name="str_login_success">Login Successfully</string>
+    <string name="str_check_int">Please check your internet connection</string>
+    <string name="str_gps_turned_off">GPS is turned off</string>
+    <string name="str_pharmacy_list">Pharmacy List</string>
+    <string name="str_price">Price</string>
+    <string name="str_menu">Menu</string>
+    <string name="str_place_order">Place Order</string>
+    <string name="str_my_acct">My account</string>
+    <string name="str_pharmacy_details">Pharmacy details</string>
+    <string name="str_distance">Distance</string>
+    <string name="str_days_time">Days and Timing</string>
+    <string name="str_night_working">Night Working</string>
+    <string name="str_mon_to_sat">Monday to Saturday</string>
+    <string name="str_ph_no">Phone Number</string>
+    <string name="str_rat_feed">Rating/Feedback</string>
+    <string name="str_mon_of_treat">Monitoring of Treatment</string>
+    <string name="str_order_tracking">Order Tracking</string>
+    <string name="str_app_sharing">Application Sharing</string>
+    <string name="str_about">About us</string>
+    <string name="str_rating">Rating</string>
+    <string name="str_sign_out">Sign out</string>
+    <string name="str_mon_treat">Monitoring</string>
+    <string name="str_mon_title">Monitoring</string>
+    <string name="str_treat_list">Treatment List</string>
+    <string name="str_add_mon_act">Add Monitoring Activity</string>
+    <string name="str_med_name">Medicine Name</string>
+    <string name="str_name">Name</string>
+    <string name="str_day">Day</string>
+    <string name="str_to">To</string>
+    <string name="str_time">Time</string>
+    <string name="str_sel_time">Select Time</string>
+    <string name="str_alarm">Alarm</string>
+    <string name="str_description">Description</string>
+    <string name="str_save">Save</string>
+    <string name="str_remove">Remove</string>
+    <string name="str_no_phar_ava">No Pharmacy Available</string>
+    <string name="str_home">Home</string>
+    <string name="str_refresh">Refresh</string>
+    <string name="str_added_success">Added Successfully</string>
+    <string name="str_some_went_wrong">Something went wrong!!!</string>
+    <string name="str_plz_sel_time">Please Select Time</string>
+    <string name="str_enter_med_name">Please Enter the Medicine Name</string>
+    <string name="str_sent_email">Sent you Email</string>
+    <string name="str_invalid_uname">Invalid Username or Password</string>
+    <string name="str_exit">Do you want to Exit?</string>
+    <string name="str_yes">Yes</string>
+    <string name="str_no">No</string>
+    <string name="str_reg_suc">Registered Successfully</string>
+    <string name="str_reg">Registering...</string>
+    <string name="str_gps_not_enabled">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_update">Update</string>
+    <string name="str_per_deny">Some Permission is Denied</string>
+    <string name="str_allow_per">Please Allow The Permission</string>
+    <string name="str_enter_address">Please Enter the Address</string>
+    <string name="str_please_add_same_pharmacy">Please Add medicine from same pharmacy</string>
+
+    <string name="str_order_details1">Order </string>
+    <string name="str_order_details2">Details</string>
+
+    <string name="str_pharm_list1">Pharmacy </string>
+    <string name="str_pharm_list2">List</string>
+
+    <string name="str_search_medicine1">Search </string>
+    <string name="str_search_medicine2">Medicine</string>
+
+    <string name="str_not_list1">Notification </string>
+    <string name="str_not_list2">List</string>
+
+    <string name="str_gen_info1">General</string>
+    <string name="str_gen_info2">Information</string>
+    <string name="str_del_address">Delivery Address</string>
+    <string name="str_full_name">Full Name</string>
+    <string name="str_ent_add">Enter your parent address</string>
+    <string name="str_enter_add">Enter your address</string>
+    <string name="str_gender">Gender</string>
+    <string name="str_address">Address</string>
+    <string name="str_order_details">Order Details</string>
+    <string name="str_cart_empty">Cart is Empty</string>
+    <string name="str_total_order">Total Order</string>
+    <string name="str_no_not">No New Notifications</string>
+    <string name="str_order_no">Order No</string>
+    <string name="str_received">Received</string>
+    <string name="str_placed_on">Placed On</string>
+    <string name="str_total_amt">Total Amt</string>
+    <string name="str_status_ip">Status Updated On</string>
+    <string name="str_view_order">View Order</string>
+    <string name="str_order_qty">Order Qty</string>
+    <string name="str_qty">Qty</string>
+    <string name="str_tot_order_price">Total Order Price</string>
+    <string name="str_notification">Notification</string>
+    <string name="str_on_the_way">On the Way</string>
+    <string name="str_add_cart">Add to cart</string>
+    <string name="str_go_to_cart">Go to cart</string>
+    <string name="str_pay_now">Pay now</string>
+    <string name="str_check_med">Check medecine</string>
+    <string name="str_monitoring">Monitoring</string>
+    <string name="str_desc">Description</string>
+    <string name="str_set_time">Set time</string>
+    <string name="str_repeat">Repeat</string>
+    <string name="str_difi">Difficulty</string>
+    <string name="str_difi2">Difficulty</string>
+    <string name="str_ringtone">Ringtone</string>
+    <string name="str_vibrate">Vibrate</string>
+    <string name="str_everyday">Everyday</string>
+    <string name="str_easy">Easy</string>
+    <string name="str_medium">Medium</string>
+    <string name="str_difficult">Difficult</string>
+    <string name="str_male">Male</string>
+    <string name="str_female">Female</string>
+    <string name="str_buy_now">Buy Now</string>
+    <string name="str_ok">OK</string>
+    <string name="str_updating">Updating...</string>
+    <string name="str_saved">Saved</string>
+    <string name="str_i_am_here">I am Here</string>
+    <string name="str_profile">Profile</string>
+    <string name="str_settings">Settings</string>
+    <string name="str_status_update_on">Status Updated On</string>
+    <string name="str_order_place_success">Sent! you will follow the progress on the management of your prescription in the "request follow-up" function. Thank you!</string>
+    <string name="str_total_amt_product">Total Amt &amp; Product</string>
+
+    <string name="str_sending">Sending...</string>
+
+    <string name="str_enter_med">Please enter the name of Medicine</string>
+
+    <string name="str_enter_med_desc">Please enter the description of Medicine</string>
+    <string name="str_login">Login...</string>
+    <string name="str_added_to_cart">Added to Cart</string>
+    <string name="str_pending">Pending</string>
+    <string name="str_per_denied">Permission Denied</string>
+    <string name="str_treat_list1">Treatment </string>
+    <string name="str_treat_list2">List</string>
+    <!--<string name="str_treatment_list">Liste des Produits du traitement</string>-->
+    <string name="str_alarm_set">Alarm Set</string>
+    <string name="str_alarm_time">Alarm Time</string>
+    <string name="str_delete">Delete</string>
+    <string name="str_delete_alarm">Delete the Alarm?</string>
+    <string name="str_item"> item</string>
+    <string name="str_add_med">Please add the medicine</string>
+    <string name="str_try_again">Please try again later</string>
+    <string name="str_silent">Silent</string>
+    <string name="str_label">Label</string>
+    <string name="str_active">Active</string>
+
+    <string name="str_cart">Cart</string>
+    <string name="str_monday">Monday</string>
+    <string name="str_tuesday">Tuesday</string>
+
+    <string name="str_wednesday">Wednesday</string>
+    <string name="str_thursday">Thursday</string>
+    <string name="str_friday">Friday</string>
+    <string name="str_saturday">Saturday</string>
+    <string name="str_sunday">Sunday</string>
+    <string name="str_mon">Mon</string>
+    <string name="str_tue">Tue</string>
+
+    <string name="str_wed">Wed</string>
+    <string name="str_thu">Thu</string>
+    <string name="str_fri">Fri</string>
+    <string name="str_sat">Sat</string>
+    <string name="str_sun">Sun</string>
+    <string name="lang">English</string>
+    <string name="name_of_insurance_enterprise">Name of insurance enterprise</string>
+
+
+    <string name="more_results">More Results</string>
+
+
+    <string name="pharmaacies_on_duty">Pharmacies On Duty</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="prices_and_orders">Prices And Orders</string>
+
+    <!--new home screen strings-->
+    <string name="treatment_monitoring">Treatment Monitoring</string>
+    <string name="health_tips">Health Tips</string>
+    <string name="delivery_tracking">Delivery Tracking</string>
+    <string name="notifications">Notifications</string>
+    <string name="write_a_message_here">Write a message here</string>
+    <string name="user_type">Select User Type</string>
+
+    <!--messaging activity strings-->
+    <string name="regular_user">Regular User</string>
+
+    <string name="doctor_user">Doctor</string>
+    <string name="promotion_list">Promotion List</string>
+    <string name="account_verification_pending">Account verification pending</string>
+    <string name="select_country_code">Select the country code</string>
+
+    <string name="country_code">Country Code</string>
+
+    <string name="data_not_available">Data not available</string>
+    <string name="user_name">User Name</string>
+    <string name="medicine_promotion">Medicine Promotion</string>
+    <string name="OrderId">OrderId</string>
+    <string name="has_been_Ready_In_Pharmacy">has been Ready In Pharmacy</string>
+
+    <string name="has_been_On_The_Way">has been On The Way</string>
+    <string name="has_been_Received">has been Received</string>
+    <string name="time">Time</string>
+    <string name="promotion_id">Promotion Id</string>
+    <string name="promotion_details">Promotion Details</string>
+    <string name="help">Help</string>
+    <string name="tap_on_contact_number">Tap on contact number given above to make a call.</string>
+    <string name="call_our_help_center">Call Our Help Center</string>
+    <string name="insurance">Insurance</string>
+    <string name="send_your_order">SEND YOUR ORDER</string>
+    <string name="already_have_an_order_of_other_medicine">Already have an order of other medicine</string>
+    <string name="str_enter_mo">Enter Mobile No.</string>
+    <string name="inbox">Inbox</string>
+    <string name="type_a_message">type massage</string>
+    <string name="time_sample">now</string>
+    <string name="message">massage</string>
+    <string name="str_inbox">Inbox</string>
+    <string name="chatting">Start Chat</string>
+    <string name="oid_123"><font color="#000"><b>OID :</b></font> # 123</string>
+    <string name="amt_2000"><font color="#000"><b>Amt :</b></font> 20000</string>
+    <string name="pharmacy_log_in">Pharmacy <font color="#3D5AFE"><u>Log in</u></font></string>
+    <string name="channel_name">NEWORDER</string>
+    <string name="channel_description">New prescription order found</string>
+    <string name="notAwailable">Not Available</string>
+    <string name="details">Details</string>
+    <string name="close">Close</string>
+    <string name="prescription">Prescription</string>
+    <string name="response_details">Response Details</string>
+    <string name="order_status">Order Status :</string>
+    <string name="available">Available</string>
+    <string name="submit">Submit</string>
+    <string name="request_details">Request Details</string>
+    <string name="contact_number">Contact Number :</string>
+    <string name="total_item">Total Item :</string>
+    <string name="total_amount">Total Amount :</string>
+    <string name="placed_date_time">Placed Date / Time :</string>
+    <string name="user_status">User Status :</string>
+    <string name="address_details">Address Details</string>
+    <string name="reddyinpharmacy">Ready in Pharmacy</string>
+    <string name="Orders">Orders</string>
+    <string name="confirm_order">Confirm Order</string>
+    <string name="select_image_from">Select Image from</string>
+    <string name="orders">Orders</string>
+    <string name="newPrescriptionorder">New Prescription Order</string>
+    <string name="msg">Inbox massage from </string>
+    <string name="invite_for_chating">Invite for chatting</string>
+    <string name="about1" translatable="false">Lisungui Pharma est une application facilitant la recherche des médicaments dans les pharmacies les plus proches de votre position 24h/24 et 7j/7.</string>
+    <string name="about2" translatable="false">L’application est désormais utilisable dans plus de 10 pays d’Afrique et continue d’améliorer et sauver les vies des patients au quotidien</string>
+    <string name="about3" translatable="false">Notre vision, c’est de pouvoir répondre efficacement et encore plus proche de vous, à l’ENSEMBLE de vos besoins dans le domaine de la santé. Notre partenariat avec les professionnels de la santé fait notre force et vous garantit un service fiable.</string>
+    <string name="about4" translatable="false">Par son efficacité, Lisungui Pharma a remporté de nombreux prix comme : YCombinator SUS2020 graduate, EarthTech Shortlist 2020, Tony Elumelu Foundation, IFC\'s 100 Startups, SIBC AFD, 1er prix MTN Y\'ello startup up, Jeune Afrique Start-up de la semaine, 1er Prix FPA</string>
+
+
+    <string name="enter_your_credit_card_details">Enter your card details</string>
+    <string name="pay">Pay</string>
+    <string name="daipora">Daipora</string>
+    <string name="Countries">Countries</string>
+
+
+    <!--New added strings by nikhil-->
+    <string name="select_country"><u>Select Country:</u></string>
+    <string name="Medicines">Medicines</string>
+    <string name="enter_emailid">Enter emailid</string>
+    <string name="Payment">Payment</string>
+    <string name="del_address">Delivery Address</string>
+    <string name="place_order">Place order</string>
+    <string name="select_city"><u>Select city</u></string>
+    <string name="medicaments">Medicines:</string>
+    <string name="frais">Commission:</string>
+    <string name="str_orders">ORDERS</string>
+    <string-array name="day_array">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+    <string-array name="day_array_full_form">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="user_types">
+        <item>Select User Type</item>
+        <item>Regular User</item>
+        <item>Doctor</item>
+        <item>Hospitals</item>
+        <item>Laboratories</item>
+    </string-array>
+    <string-array name="user_typesfr">
+        <item>Choix du type d\'utilisateur</item>
+        <item>Utilisateur régulier</item>
+        <item>Docteurs</item>
+        <item>Hopitaux</item>
+        <item>Laboratoires</item>
+    </string-array>
+
+    <!--
+<string name="about1" translatable="false">Lisungui est un produit de l\'entreprise Congo Novation. C\'est une application qui vous permet de trouver sans se déplacer, les pharmacies de garde, de géo-localiser les pharmacies qui sont les plus proches de vous, et grâce à son système de rappel pour la prise de produits, elle vous aide à suivre vos traitements d’une manière efficace.</string>
+    <string name="about2" translatable="false">Notre mission est de faciliter la recherche des informations dans le domaine pharmaceutique car chaque minute compte pour sauver une vie et Lisungui est là pour vous aider à gagner ce temps précieux</string>
+    <string name="about3" translatable="false">Notre vision c\'est qu\'à très court terme nous puissions répondre efficacement et même à proximité à L\'ENSEMBLE de vos besoins dans le domaine pharmaceutique. Notre partenariat avec les pharmaciens fait notre force et vous garantit un service fiable</string>
+    <string name="about4" translatable="false">Le projet Lisungui est vainqueur premier prix du concours des meilleurs projets d\'entrepreneuriat 2016 organisé par la Fondation Perspectives d\'avenir.</string>
+-->
+
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/messages_textview_1"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/addtocart_green_roundcorner_bg"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/messages_textview_2"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/buynow_red_roundcorner_bg"
+        android:visibility="gone"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_textview"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:layout_below="@+id/messages_textview_1"
+        android:textAlignment="textEnd"
+        android:gravity="end" />
+
+</RelativeLayout>

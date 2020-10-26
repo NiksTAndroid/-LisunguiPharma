@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/white_roundedcorner_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/_5ssp">
+
+
+    <TextView
+        android:id="@+id/parma_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/user_buss"
+        android:drawableTint="@color/green"
+        android:gravity="end|center_vertical"
+        android:text="pharma name"
+        android:textColor="@color/black" />
+
+
+    <TextView
+        android:id="@+id/tv_pharmaAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5ssp"
+        android:drawablePadding="@dimen/_10ssp"
+        android:drawableLeft="@drawable/ic_home"
+        android:drawableTint="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:text="Pharma Address "
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/gray"/>
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5ssp"
+        android:drawablePadding="@dimen/_10ssp"
+        android:text="description description description descriptiondescriptiondescription descriptiondescriptiondescriptiondescription"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5ssp">
+
+        <TextView
+            android:id="@+id/tv_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Mobile:\n123456789"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_acceptButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="@dimen/_5ssp"
+            android:text="@string/confirm_order"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

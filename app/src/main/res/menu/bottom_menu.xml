@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="@string/str_home"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_price"
+        android:enabled="true"
+        android:icon="@drawable/ic_coin_white"
+        android:title="@string/str_price"
+        app:showAsAction="ifRoom"/>
+
+    <!--<item
+        android:id="@+id/action_add"
+        android:enabled="true"
+        android:icon="@drawable/ic_add_circular"
+        android:title="@string/str_menu"
+        app:showAsAction="ifRoom"/>-->
+    <item
+        android:id="@+id/action_place"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_alarm_bell"
+        android:title="Notification"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_inbox"
+        android:enabled="true"
+        android:icon="@drawable/ic_chatting"
+        android:title="Inbox"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_account"
+        android:enabled="true"
+        android:icon="@drawable/ic_user123"
+        android:title="@string/str_my_acct"
+        app:showAsAction="ifRoom"/>
+
+</menu>

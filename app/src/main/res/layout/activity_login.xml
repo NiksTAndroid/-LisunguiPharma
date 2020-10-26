@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/back" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:src="@drawable/logo" />
+
+            <EditText
+                android:id="@+id/edt_uname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edt_bg"
+                android:drawableStart="@drawable/ic_action_user"
+                android:drawableLeft="@drawable/ic_action_user"
+                android:gravity="center"
+                android:hint="@string/str_username"
+                android:inputType="text"
+                android:textColor="#FFF"
+                android:textColorHint="#FFF" />
+
+            <EditText
+                android:id="@+id/edt_passwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edt_bg"
+                android:drawableStart="@drawable/ic_action_locked"
+                android:drawableLeft="@drawable/ic_action_locked"
+                android:gravity="center"
+                android:hint="@string/str_password"
+                android:inputType="textPassword"
+                android:textColor="#FFF"
+                android:textColorHint="#FFF" />
+            <!--<Spinner
+                android:id="@+id/usertype_registration_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="20"
+                android:spinnerMode="dialog"
+                android:textStyle="italic"
+                android:textColorHint="#fafafa"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/edt_bg"
+                android:visibility="visible"
+                >
+            </Spinner>-->
+            <Button
+                android:id="@+id/btn_sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_bg"
+                android:text="@string/str_sign_in"
+                android:textColor="#FFF" />
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/btn_google_sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10ssp"
+                android:padding="10dp"
+                android:id="@+id/pharmacy_login"
+                android:text="@string/pharmacy_log_in"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!--<Button
+            android:id="@+id/btn_fb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_above="@+id/lin1"
+            android:background="#4D5F9C"
+            android:textColor="#FFF"
+            android:textAllCaps="false"
+            android:text="Connect With Facebook"/>-->
+
+        <LinearLayout
+            android:id="@+id/lin1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2.0">
+
+            <Button
+                android:id="@+id/btn_forgot_pass"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/btn_bg2"
+                android:text="@string/str_for_pass"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                tools:targetApi="ice_cream_sandwich" />
+
+            <Button
+                android:id="@+id/btn_sign_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/btn_bg2"
+                android:text="@string/str_sign_up"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                tools:targetApi="ice_cream_sandwich" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lisungui.pharma">
+
+    <application
+        android:name=".utility.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".activities.StripePaymentActivity"
+            android:label="@string/Payment"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".activities.PH_AllOrdersActivity" />
+        <activity android:name=".FirebaseChating.ChattingActivity" />
+
+        <activity
+            android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".activities.SignUpActivity"
+            android:label="@string/str_sign_up"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.ForgotPassActivity"
+            android:label="@string/str_for_pass"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.MapsActivity"
+            android:label="@string/title_activity_maps" /> <!-- android:launchMode="singleTask" -->
+        <activity
+            android:name=".activities.PharmacyDetailsActivity"
+            android:label="@string/str_pharmacy_details"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <!-- Firebase Notifications -->
+        <activity
+            android:name=".activities.AboutUsActivity"
+            android:label="@string/str_about"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.MonitoringActivity"
+            android:label="@string/str_mon_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.OrderTackingActivity"
+            android:label="@string/str_order_tracking"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" /> <!-- ./Firebase Notifications -->
+        <activity
+            android:name=".activities.AddTreatAlarmActivity"
+            android:label="@string/str_add_mon_act"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".activities.AddTreatAlarmActivity1"
+            android:label="@string/str_add_mon_act"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".preferences.AlarmPreferencesActivity"
+            android:label="@string/str_add_mon_act"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.MedDetailsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.PlaceOrderActivity"
+            android:label="@string/str_place_order"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.CountryPlaceOrderActivity"
+            android:label="@string/str_place_order"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.ViewOrderActivity"
+            android:label="@string/str_order_details"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".activities.MessagingActivity" />
+
+        <activity android:name=".activities.CallHelpActivity" />
+
+        <activity
+            android:name=".activities.PromotionActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.PromotionDetailsActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activities.PH_ActivityOrderDetails"
+            android:launchMode="singleTask" />
+        <activity android:name=".activities.FullScreenImage" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.lisungui.pharma.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepath_providers"
+                tools:replace="android:resource" />
+        </provider>
+        <receiver android:name=".alarm.AlarmServiceBroadcastReciever">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".alarm.AlarmAlertBroadcastReciever" />
+
+        <receiver android:name=".alarm.PhoneStateChangedBroadcastReciever">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!--<service android:name=".fcm.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service> --><!-- <service android:name=".service.TokenRegisterService" /> -->
+        <service
+            android:name=".fcm.DeleteTokenService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name=".alarm.AlarmService"
+            android:label="@string/app_name" /> <!-- <activity -->
+        <!-- android:name="com.gun0912.tedpicker.ImagePickerActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
+        <service
+            android:name=".service.GetNearLocationsService"
+            android:exported="false" />
+        <service android:name=".service.DownloadService" />
+        <service android:name=".GPSTracking.GPSTracker" />
+        <service android:name=".service.TokenRegisterService" />
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+</manifest>

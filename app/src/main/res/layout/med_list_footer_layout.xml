@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:elevation="5dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/medlist_footer_button"
+        android:background="@android:color/transparent"
+        android:text="@string/more_results"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:drawableBottom="@drawable/ic_expand_more_black_32dp"
+        />
+</RelativeLayout>

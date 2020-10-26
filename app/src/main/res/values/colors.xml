@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#729619</color>
+    <color name="colorPrimaryDark">#5B7715</color>
+    <color name="colorAccent">#A6DA21</color>
+    <item name="Blue" type="color">#2196F3</item>
+    <color name="background">#EBF1F4</color>
+    <color name="greengrey">#dae5e0</color>
+    <color name="green">#729619</color>
+    <color name="green_300">#81C784</color>
+    <color name="gray_bagro">#dae5e0</color>
+    <color name="gray">#8B8B8B</color>
+    <color name="gray_font">#737373</color>
+    <color name="list_divider">#c8c7cc</color>
+    <color name="black">#000000</color>
+</resources>

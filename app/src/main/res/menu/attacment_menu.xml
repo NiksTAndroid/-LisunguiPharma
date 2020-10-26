@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/location_item"
+        android:alphabeticShortcut="a"
+        android:title="Location" />
+
+    <item android:id="@+id/video_item"
+        android:alphabeticShortcut="b"
+        android:title="Video" />
+
+    <item android:id="@+id/image_item"
+        android:alphabeticShortcut="c"
+        android:title="Image" />
+    <item android:id="@+id/document_item"
+        android:alphabeticShortcut="d"
+        android:title="Document" />
+
+</menu>

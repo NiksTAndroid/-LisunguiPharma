@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lin_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_del_address"
+        android:textColor="#FFF"
+        android:padding="10dp"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/edt_del_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/gray"
+        android:textColor="#000"
+        android:hint="@string/str_address"/>
+
+    <TextView
+        android:id="@+id/txt_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF3D00"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:layout_gravity="right|end"
+        android:text="@string/str_submit"/>
+
+</LinearLayout>

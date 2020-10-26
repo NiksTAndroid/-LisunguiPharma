@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PromotionDetailsActivity"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/promotion_img"
+        android:src="@drawable/medicines_newpharmacy"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/promotion_img"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/promotion_id_txt"
+        android:text="Promotion Id"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/promotion_title_txt"
+        android:text="Promotion Title"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/promotion_id_txt"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/promotion_msg_txt"
+        android:text="Promotion Message"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/promotion_title_txt"
+        />
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

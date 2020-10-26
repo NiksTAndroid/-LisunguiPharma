@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"
+    android:orientation="vertical"
+    android:padding="2dp"
+    >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginStart="30dp"
+        android:id="@+id/Relativelayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@drawable/chat_right_background_style"
+
+        android:layout_marginTop="0dp">
+        <LinearLayout
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:textSize="9sp"
+            android:id="@+id/text_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginEnd="1dp"
+            android:layout_marginTop="1dp"
+            android:text="User Name" />
+
+
+
+            <TextView
+                android:textIsSelectable="true"
+                android:textSize="15sp"
+                android:id="@+id/text_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/videolayoutright"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="1dp"
+                android:text="Message..."
+                android:autoLink="all"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+
+
+
+            <ImageView
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="1dp"
+            android:visibility="gone"
+            android:layout_marginStart="2dp"
+            android:id="@+id/senderimage"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <ImageView
+            app:srcCompat="@drawable/germanylocation"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="1dp"
+            android:layout_marginStart="2dp"
+            android:visibility="gone"
+
+
+            android:id="@+id/senderlocationview"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp" />
+
+        <ImageView
+            android:background="@drawable/pdf_icon"
+            android:visibility="gone"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+
+            android:id="@+id/RdocumentImageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/videoRightLayout"
+                android:visibility="gone"
+                android:layout_height="wrap_content" >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@android:drawable/ic_media_play"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:elevation="10dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/videorightImage"
+                    android:minWidth="150dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+
+
+
+            <LinearLayout android:layout_marginEnd="10dp"
+                android:orientation="horizontal"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView android:layout_gravity="end"
+                android:id="@+id/text_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginEnd="10dp"
+
+                android:gravity="end"
+                android:maxLines="1"
+                android:text="time"
+                android:textSize="10sp" />
+                <ImageView
+                    android:id="@+id/right_status_read_unread"
+
+                    android:gravity="end"
+
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/Relativelayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="start"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="30dp"
+       android:background="@drawable/chatbubble_left"
+        android:padding="2dp">
+
+<LinearLayout
+    android:padding="4dp"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <TextView
+            android:textSize="10sp"
+            android:id="@+id/tv_recivername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="1dp"
+            android:text="User Name" />
+
+
+    <TextView
+        android:id="@+id/tv_recivermsg"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:autoLink="all"
+        android:text="Message..."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textIsSelectable="true"
+        android:textSize="15sp" />
+
+
+
+
+
+
+        <ImageView
+
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+
+            android:id="@+id/reciverimage"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <ImageView
+            app:srcCompat="@drawable/germanylocation"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+
+            android:id="@+id/recieverlocationview"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <ImageView
+            android:background="@drawable/pdf_icon"
+            android:visibility="gone"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="2dp"
+            android:layout_below="@+id/recieverlocationview"
+            android:id="@+id/LdocumentImageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/videoLeftLayout"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@android:drawable/ic_media_play"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:elevation="10dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/videoleftImage"
+            android:minWidth="150dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+        <LinearLayout
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <TextView
+
+        android:textSize="10sp"
+        android:layout_marginEnd="5dp"
+        android:id="@+id/tv_reciversendtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginStart="15dp"
+        android:maxLines="1"
+        android:layout_below="@+id/tv_recivermsg"
+        android:layout_toEndOf="@+id/tv_recivermsg"
+        android:text="time" />
+    <ImageView
+        android:id="@+id/left_status_read_unread"
+        android:visibility="invisible"
+        android:layout_marginEnd="1dp"
+        android:gravity="end"
+        android:layout_below="@+id/tv_recivermsg"
+        android:layout_toEndOf="@+id/tv_reciversendtime"
+        android:layout_width="15dp"
+        android:layout_height="15dp" />
+        </LinearLayout>
+</LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

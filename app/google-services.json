@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "507168277830",
+    "firebase_url": "https://lisungui-7da31.firebaseio.com",
+    "project_id": "lisungui-7da31",
+    "storage_bucket": "lisungui-7da31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507168277830:android:b11d3c38b235ff29",
+        "android_client_info": {
+          "package_name": "com.lisungui.pharma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507168277830-q9lmhjfijh0peeocapi77fni9dsb9dql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lisungui.pharma",
+            "certificate_hash": "e364b49511757cc724e31858902f01c235064068"
+          }
+        },
+        {
+          "client_id": "507168277830-9n40g5g43b8bfrpvq70dacos8vcetm3j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lisungui.pharma",
+            "certificate_hash": "de6277b558531cfb0d67215ecfe4639fff338ab5"
+          }
+        },
+        {
+          "client_id": "507168277830-gmj15uimj4l03o1uo8gr5oiu2sqr7pp8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lisungui.pharma",
+            "certificate_hash": "14091fbca1ace5c1c667cb0516be7a730d7fb3d9"
+          }
+        },
+        {
+          "client_id": "507168277830-09rkqe55c92rdsc1n17amcencelq518i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFYzOtfe6Qv0sIsfmo98JQzUhmH1wxMAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507168277830-09rkqe55c92rdsc1n17amcencelq518i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507168277830:android:d9cff9cab3e286fd",
+        "android_client_info": {
+          "package_name": "com.pharmalite.pharma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507168277830-09rkqe55c92rdsc1n17amcencelq518i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFYzOtfe6Qv0sIsfmo98JQzUhmH1wxMAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507168277830-09rkqe55c92rdsc1n17amcencelq518i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@null"
+        android:src="@drawable/back"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/photo"
+            android:id="@+id/ivPhoto"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edt_bg"
+            android:drawableLeft="@drawable/ic_action_user"
+            android:drawableStart="@drawable/ic_action_user"
+            android:gravity="center"
+            android:hint="@string/str_username"
+            android:inputType="text"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF" />
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edt_bg"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawableStart="@drawable/ic_user"
+            android:gravity="center"
+            android:hint="@string/str_email_id"
+            android:visibility="gone"
+            android:inputType="textEmailAddress"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF" />
+
+<!--
+        <EditText
+            android:id="@+id/edt_mb_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edt_bg"
+            android:drawableStart="@drawable/ic_action_phone_call"
+            android:drawableLeft="@drawable/ic_action_phone_call"
+            android:gravity="center"
+            android:hint="@string/str_mb_no"
+            android:inputType="number"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF" />
+-->
+
+        <EditText
+            android:id="@+id/edt_passwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edt_bg"
+            android:drawableLeft="@drawable/ic_action_locked"
+            android:drawableStart="@drawable/ic_action_locked"
+            android:gravity="center"
+            android:hint="@string/str_password"
+            android:inputType="textPassword"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF" />
+
+        <Spinner
+            android:id="@+id/usertype_registration_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="20"
+            android:spinnerMode="dialog"
+            android:textStyle="italic"
+            android:textColorHint="#fafafa"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/edt_bg"
+            android:visibility="visible"
+            >
+        </Spinner>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/countrycode_imageview"
+                android:src="@drawable/ic_action_phone_call"
+                android:background="@drawable/edt_bg"
+                android:layout_marginRight="2dp"
+                android:drawableLeft="@drawable/ic_action_phone_call"
+                android:text="@string/country_code"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                />
+            <EditText
+                android:id="@+id/edt_mb_no"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:background="@drawable/edt_bg"
+                android:hint="@string/str_mb_no"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textColorHint="#FFF"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/str_sign_up"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            tools:targetApi="ice_cream_sandwich" />
+
+    </LinearLayout>
+
+</FrameLayout>

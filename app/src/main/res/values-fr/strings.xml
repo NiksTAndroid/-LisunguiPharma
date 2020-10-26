@@ -1,0 +1,291 @@
+<resources>
+    <string name="app_name">LISUNGUI Pharma</string>
+
+    <string name="error_invalid_email">Cette adresse e-mail est incorrecte</string>
+    <string name="error_invalid_password">Ce mot de passe est trop court</string>
+    <string name="error_incorrect_password">Ce mot de passe est incorrect</string>
+    <string name="error_field_required">Ce champ est requis</string>
+    <string name="error_field_too_short">Au moins 4 caractères requis</string>
+    <string name="error_field_mb_no">Veuillez entrer le numéro de téléphone correct</string>
+    <string name="error_password">Au moins 6 caractères requis</string>
+    <string name="title_activity_maps">Carte</string>
+    <string name="title_activity_pharmacy_list">Liste des pharmacies</string>
+
+    <string name="str_please_add_same_pharmacy">Sil vous plaît Ajouter des médicaments de la même pharmacie</string>
+
+
+    <string name="euro_symbol">€</string>
+    <string name="str_username">Prénom</string>
+    <string name="str_password">Mot de passe</string>
+    <string name="str_sign_in">Connexion</string>
+    <string name="str_for_pass">Mot de passe oublié?</string>
+    <string name="str_sign_up">"S'inscrire"</string>
+    <string name="str_email_id">Email</string>
+    <string name="str_mb_no">Téléphone</string>
+    <string name="str_submit">Soumettre</string>
+    <string name="str_loading">Chargement...</string>
+    <string name="str_sending">Envoi...</string>
+    <string name="str_enter_med">Veuillez entrer le nom du médicament</string>
+    <string name="str_enter_med_desc">Veuillez entrer la description du médicament</string>
+    <string name="str_login">"S'identifier..."</string>
+    <string name="str_login_success">Connexion Reussie!</string>
+    <string name="str_check_int">Veuillez activer internet</string>
+    <string name="str_gps_turned_off">"Activez votre GPS puis relancer l'application"</string>
+    <string name="str_pharmacy_list">Liste des pharmacies</string>
+    <string name="str_price">Produits et Prix</string>
+    <string name="str_menu">Menu</string>
+    <string name="str_place_order">Commandez</string>
+
+    <string name="str_my_acct">Mon compte</string>
+    <string name="str_pharmacy_details">Details de la pharmacie</string>
+    <string name="str_distance">Distance</string>
+    <string name="str_days_time">Jours et heures de travail</string>
+    <string name="str_night_working">De garde?</string>
+    <string name="str_mon_to_sat">Lundi à samedi</string>
+    <string name="str_ph_no">Téléphone</string>
+    <string name="str_rat_feed">Evaluation</string>
+    <string name="str_mon_of_treat">Suivi des Traitements</string>
+    <string name="str_order_tracking">Suivi livraison produits</string>
+    <string name="str_app_sharing">"Partagez l'application!"</string>
+    <string name="str_about">A propos!</string>
+    <string name="str_rating">Evaluation</string>
+    <string name="str_sign_out">Deconnexion</string>
+    <string name="str_mon_treat">Mon traitement à suivre</string>
+    <string name="str_mon_title">Gestion de Traitments</string>
+    <string name="str_treat_list">Produits à prendre</string>
+    <string name="str_add_mon_act">Ajouter un produit du traitement</string>
+    <string name="str_med_name">Nom du produit</string>
+    <string name="str_name">Produit</string>
+    <string name="str_day">jours</string>
+    <string name="str_to">à</string>
+    <string name="str_time">Heure</string>
+    <string name="str_sel_time">"choisis l'heure"</string>
+    <string name="str_alarm">Alarme</string>
+    <string name="str_description">Description</string>
+    <string name="str_save">Validez</string>
+    <string name="str_remove">Retirer</string>
+    <string name="str_no_phar_ava">Pas de pharmacie disponible</string>
+    <string name="str_home">Accueil</string>
+    <string name="str_refresh">Rafraîchir</string>
+    <string name="str_added_success">Ajouté avec succès</string>
+    <string name="str_some_went_wrong">"Quelque-chose s'est mal passé!!!"</string>
+    <string name="str_plz_sel_time">"Veuillez sélectionner l'heure"</string>
+    <string name="str_enter_med_name">Veuillez saisir le nom de la médecine</string>
+    <string name="str_sent_email">Vous envoyez par e-mail envoyé</string>
+    <string name="str_invalid_uname">"Nom d'utilisateur ou mot de passe incorrect"</string>
+    <string name="str_exit">Souhaitez-vous quitter ?</string>
+    <string name="str_yes">Oui</string>
+    <string name="str_no">Non</string>
+    <string name="str_reg_suc">enregistré avec succès</string>
+    <string name="str_reg">Enregistrement...</string>
+    <string name="str_gps_not_enabled">"Le GPS n'est pas activé. Voulez-vous aller dans le menu de configuration?"</string>
+    <string name="str_cancel">Annuler</string>
+    <string name="str_update">réviser</string>
+    <string name="str_per_deny">Autorisation refusée</string>
+    <string name="str_allow_per">"Veuillez autoriser l'autorisation"</string>
+
+    <string name="str_pharm_list1">Liste des </string>
+    <string name="str_pharm_list2">Pharmacies</string>
+
+    <string name="str_search_medicine1">Recherchez votre </string>
+    <string name="str_search_medicine2">produit</string>
+
+    <string name="str_not_list1">Liste de </string>
+    <string name="str_not_list2">notifications</string>
+
+    <string name="str_order_details1">détails </string>
+    <string name="str_order_details2">de la commande</string>
+
+    <string name="str_gen_info1">Informations </string>
+    <string name="str_gen_info2">Générales</string>
+    <string name="str_enter_address">"Veuillez entrer l'adresse"</string>
+    <string name="str_full_name">Nom</string>
+    <string name="str_gender">Genre</string>
+    <string name="str_address">Adresse</string>
+    <string name="str_del_address">Adresse de livraison</string>
+
+    <!--<string name="str_ent_add">Entrer une nouvelle adresse</string>-->
+    <string name="str_ent_add">Entrez la ville et le quartier de votre proche</string>
+    <string name="str_enter_add">Insérez votre adresse</string>
+    <string name="str_order_details">Details de la commande</string>
+    <string name="str_cart_empty">Votre panier est vide</string>
+    <string name="str_total_order">Total</string>
+    <string name="str_no_not">Pas de nouvelles notifications</string>
+    <string name="str_order_no">"N° de commande"</string>
+    <string name="str_received">Cmde Reçue</string>
+    <string name="str_placed_on">Commander le</string>
+    <string name="str_total_amt">Total montant</string>
+    <string name="str_status_ip">Produit</string>
+    <string name="str_view_order">Statut mis à jour le</string>
+    <string name="str_order_qty">Quantité</string>
+    <string name="str_qty">Quantité</string>
+    <string name="str_tot_order_price">Total de la commande</string>
+    <string name="str_notification">Notification</string>
+    <string name="str_on_the_way">en cours de livraison</string>
+    <string name="str_add_cart">Ajoutez au panier</string>
+    <string name="str_go_to_cart">Allez au panier</string>
+    <string name="str_added_to_cart">Ajouté au panier</string>
+    <string name="str_pending">En attente</string>
+    <string name="str_per_denied">permission refusée</string>
+    <string name="str_pay_now">Commander maintenant</string>
+    <string name="str_check_med">Recherche des produits</string>
+    <string name="str_monitoring">Suivi de traitement</string>
+    <!--<string name="str_treatment_list">Liste des Produits du traitement</string>-->
+    <string name="str_treat_list1">Liste des</string>
+    <string name="str_treat_list2">traitements</string>
+    <string name="str_alarm_set">"Ensemble d'alarme"</string>
+    <string name="str_desc">Role du produit</string>
+    <string name="str_set_time">"Inserez l'heure"</string>
+    <string name="str_alarm_time">"Heure de l'alarme"</string>
+    <string name="str_repeat">Les jours du traitement</string>
+    <string name="str_difi">Elevée</string>
+    <string name="str_difi2">Importance</string>
+    <string name="str_ringtone">Sonnerie</string>
+    <string name="str_vibrate">Vibration</string>
+    <string name="str_delete">Effacer</string>
+    <string name="str_everyday">Tous les jours</string>
+    <string name="str_easy">Basse</string>
+    <string name="str_medium">Moyenne</string>
+    <string name="str_difficult">Elevée</string>
+    <string name="str_delete_alarm">Supprimer cette alarme?</string>
+    <string name="str_male">Homme</string>
+    <string name="str_female">Femme</string>
+    <string name="str_buy_now">Acheter maintenant</string>
+    <string name="str_ok">"D'accord"</string>
+    <string name="str_updating">Mise à jour...</string>
+    <string name="str_saved">Enregistré</string>
+    <string name="str_profile">Profil</string>
+    <string name="str_i_am_here">Je suis là</string>
+    <string name="str_settings">Paramètres</string>
+    <string name="str_item">le objet</string>
+    <string name="str_add_med">Veuillez ajouter des médicaments</string>
+    <string name="str_try_again">Veuillez réessayer plus tard</string>
+    <string name="str_status_update_on">Statut Mis à jour le</string>
+    <string name="str_order_place_success">Envoyée! vous suivrez l\'avancement sur la gestion de votre ordonnance dans la fonction "suivi de demandes".  Merci!</string>
+    <string name="str_total_amt_product">Total montant et produit</string>
+    <string name="str_silent">Silencieux</string>
+    <string name="str_sunday">Dimanche</string>
+    <string name="str_label">Étiquette</string>
+    <string name="str_active">actif</string>
+    <string name="str_monday">Lundi</string>
+    <string name="str_tuesday">Mardi</string>
+    <string name="str_cart">Chariot</string>
+    <string name="str_wednesday">Mercredi</string>
+    <string name="str_thursday">Jeudi</string>
+    <string name="str_friday">Vendredi</string>
+    <string name="str_saturday">Samedi</string>
+
+    <string name="str_mon">lun</string>
+    <string name="str_tue">mar</string>
+    <string name="str_wed">mer</string>
+    <string name="str_thu">jeu</string>
+    <string name="str_fri">ven</string>
+    <string name="str_sat">sam</string>
+    <string name="str_sun">dim</string>
+
+    <string-array name="day_array">
+        <item>lun</item>
+        <item>mar</item>
+        <item>mer</item>
+        <item>jeu</item>
+        <item>ven</item>
+        <item>sam</item>
+        <item>dim</item>
+    </string-array>
+
+    <string-array name="day_array_full_form">
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+        <item>Dimanche</item>
+    </string-array>
+
+    <string name="lang">French</string>
+    <string name="name_of_insurance_enterprise">nom de lentreprise dassurance</string>
+
+    <string name="more_results">Plus de résultats</string>
+
+    <!--new home screen strings-->
+    <string name="pharmaacies_on_duty">Pharmacies de garde</string>
+    <string name="prices_and_orders">Prix et commandes</string>
+    <string name="treatment_monitoring">Suivi du traitement</string>
+    <string name="health_tips">Conseils santé</string>
+    <string name="delivery_tracking">Suivi de demandes</string>
+    <string name="notifications">Notifications</string>
+
+    <!--messaging activity strings-->
+    <string name="write_a_message_here">Écrivez un message ici</string>
+
+    <string name="user_type">Type D\'Utilisateur</string>
+    <string name="regular_user">Utilisateur régulier</string>
+    <string name="doctor_user">L\'Docteur</string>
+
+    <string name = "promotion_list">Liste de promotions</string>
+
+
+    <string name = "account_verification_pending">Compte en Attente de validation</string>
+    <string name="select_country_code">Sélectionnez le code du pays</string>
+
+    <string name="country_code">Code Pays</string>
+    <string name="data_not_available">Données non disponibles</string>
+
+    <string name="user_name">Nom d\'utilisateur</string>
+    <string name="medicine_promotion">Promotion de la médecine</string>
+    <string name="OrderId">Cmnde N°</string>
+    <string name="has_been_Ready_In_Pharmacy">Prête en pharmacie</string>
+    <string name="has_been_On_The_Way">est sur le chemin</string>
+    <string name="has_been_Received">a été reçue</string>
+    <string name="time">Temps</string>
+    <string name="promotion_id">Identifiant de promotion</string>
+    <string name="promotion_details">Détails de la promotion</string>
+    <string name="help">L\'assistance</string>
+    <string name="tap_on_contact_number">Appuyez sur le numéro de contact indiqué ci-dessus pour passer un appel.</string>
+    <string name="call_our_help_center">Appelez notre centre d\'aide</string>
+    <string name="insurance">Dassurance</string>
+    <string name="already_have_an_order_of_other_medicine">Avez déjà une ordonnance d\'un autre médicament</string>
+    <string name="send_your_order">ENVOYEZ VOTRE ORDONNANCE</string>
+    <string name="notAwailable">Indisponible</string>
+    <string name="close">Fermer</string>
+    <string name="prescription">Ordonnance</string>
+    <string name="response_details">Details sur les réponses</string>
+    <string name="order_status">Statuts de la Cmde :</string>
+    <string name="details">Détails</string>
+    <string name="available">Disponible</string>
+    <string name="submit">Valider</string>
+    <string name="request_details">" Details sur le demandeur"</string>
+    <string name="contact_number">Telephone :</string>
+    <string name="total_item">Nbre de médicaments :</string>
+    <string name="total_amount">Montant total :</string>
+    <string name="placed_date_time">Date/Heure de la cmde</string>
+    <string name="user_status">Statut de l’utilisateur</string>
+    <string name="address_details">Adresse</string>
+    <string name="reddyinpharmacy">Prêt en pharmacie</string>
+    <string name="Orders">Commandes</string>
+    <string name="confirm_order">Confirmer Cmde</string>
+    <string name="select_image_from">Sélectionnez l’image</string>
+    <string name="newPrescriptionorder">Nouvelle ordonnance à traiter</string>
+    <string name="msg">"Message de "</string>
+    <string name="chatting">" Messagerie"</string>
+    <string name="orders">Commandes</string>
+    <string name="invite_for_chating">Commencez une conversation</string>
+
+
+    <!--new added strings translation-->
+    <string name="enter_your_credit_card_details">Les détails de votre carte</string>
+    <string name="enter_emailid">Entrez votre Email</string>
+    <string name="pay">Payez</string>
+    <string name="daipora">Diaspora</string>
+    <string name="Countries">Pays</string>
+    <string name="select_country"><u>Pays de votre proche:</u></string>
+    <string name="Medicines">médicaments</string><!--médicaments-->
+    <string name="Payment">Paiement</string>
+    <string name="del_address">Ville et quartier de votre proche</string>
+    <string name="place_order">Validez</string>
+    <string name="select_city"><u>Sélectionnez une ville</u></string>
+    <string name="medicaments">Medicaments:</string>
+    <string name="frais">Frais:</string>
+    <string name="str_orders">COMMANDES</string>
+</resources>
